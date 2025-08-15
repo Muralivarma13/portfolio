@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>John Doe's Web Portfolio</title>
+</head>
+<body border="1">
+
+    <!-- Header -->
+    <table align="center" width="80%" border="0">
+        <tr>
+            <td align="center" colspan="2">
+                <h2>John Doe's Web Portfolio</h2>
+                <i>Showcasing HTML Skills using Tables</i><br>
+                <a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a>
+                <hr>
+            </td>
+        </tr>
+    </table>
+
+  <!-- About Me -->
+    <table align="center" width="80%" border="1">
+        <tr>
+            <td id="about">
+                <h3> About Me</h3>
+                <p>Hello! I'm <b>John Doe</b>, a passionate web developer. I love building semantic, accessible, and responsive websites using core web technologies.</p>
+                <p>I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>
+            </td>
+            <td align="right">
+                <!-- <img src="profile.jpg" alt="John Doe" width="100"> -->
+            </td>
+        </tr>
+    </table>
+
+    <!-- Skills & Projects -->
+    <table align="center" width="80%" border="1">
+        <tr>
+            <!-- Skills -->
+            <td width="50%" valign="top" id="skills">
+                <h3> Skills</h3>
+                <ul>
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                <h4>Skill Levels</h4>
+                <table border="1">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Projects -->
+            <td width="50%" valign="top" id="projects">
+                <h3> Projects</h3>
+                <ol>
+                    <li><b>Portfolio Website</b>  My personal portfolio built using pure HTML and CSS.</li>
+                    <li><b>Todo App</b> A task management tool with vanilla JavaScript.</li>
+                    <li><b>Weather App</b>  A real-time weather dashboard using APIs.</li>
+                </ol>
+                <h4> Screenshot</h4>
+                <p><img src="html.jpeg" alt="HTML" width="200"></p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Contact Me -->
+    <table align="center" width="80%" border="1" id="contact">
+        <tr>
+            <td>
+                <h3> Contact Me</h3>
+                <form action="index.html">
+                    <p>
+                        <label>Full Name:</label><br>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email:</label><br>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Gender:</label><br>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </p>
+                    <p>
+                        <label>Services Interested:</label><br>
+                        <input type="checkbox" name="service"> Web Design
+                        <input type="checkbox" name="service"> SEO
+                    </p>
+                    <p>
+                        <label>Country:</label><br>
+                        <select>
+                            
+                            <option>India</option>
+                            <option>UK</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Message:</label><br>
+                        <textarea rows="4" cols="40"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table align="center" width="80%" border="0">
+        <tr>
+            <td align="center">
+                <p> Last Updated: August 13, 2025</p>
+                <p>Design by John Doe<br>
+                Email: <a href="john@example.com">john@example.com</a><br>
+                <p>2025 John Doe. All rights reserved.</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
